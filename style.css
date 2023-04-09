@@ -1,0 +1,1659 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  background-color: #c2edda;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(/fonte/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "chivo";
+  src: url(/fonte/Chivo_Mono/ChivoMono-Italic-VariableFont_wght.ttf);
+}
+
+.sobreMimProjetos3 {
+  display: none;
+}
+/* MOBILE 320PX */
+@media (min-width: 320px) {
+  .icon-logo {
+    font-size: 40px;
+    padding: 15px;
+  }
+
+  .icon-logo-aba-aberta {
+    font-size: 40px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sobre {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobreMim {
+    margin-right: 18px;
+    font-family: "chivo";
+  }
+
+  .sobreMim:hover {
+    color: rgb(29, 29, 124);
+    font-weight: bolder;
+  }
+
+  .botaoProjeto {
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "chivo";
+  }
+
+  .botaoProjeto:hover {
+    background-color: rgb(43, 41, 41);
+    transition: 0.2s;
+  }
+
+  .hamburger,
+  .escape {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobreMimProjetos1,
+  .sobreMimProjetos2,
+  .sobreMimBotaoEscape {
+    display: none;
+  }
+
+  .esconder {
+    display: none;
+  }
+
+  .aberturaConteudo {
+    margin-top: 50px;
+  }
+  .conteudo-titulo {
+    font-size: 25px;
+    font-family: "chivo";
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo-apresentacao {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "chivo";
+    text-align: center;
+    max-width: 250px;
+  }
+
+  .imagem-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .imagem-computador {
+    width: 170px;
+    border-radius: 50px;
+  }
+
+  .segunda-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  .imagem-sub-principal {
+    width: 320px;
+    height: 180px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-bottom: -8px;
+  }
+
+  .sobreMinhaJornada {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(1, 1, 17), rgb(2, 2, 66));
+    padding: 20px;
+  }
+
+  .conteudo-titulo2 {
+    font-size: 25px;
+    font-family: "roboto";
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .conteudo-apresentacao2 {
+    max-width: 260px;
+    font-size: 20px;
+    font-family: "chivo";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .habilidades {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .habilidade-frontend {
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .linguagens {
+    margin-top: 20px;
+  }
+
+  .conteudo-titulo3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "chivo";
+    margin-bottom: 30px;
+  }
+
+  .conteudo-apresentacao3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "chivo";
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+
+  .icone-tec {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .html-div {
+    height: 250px;
+    max-width: 220px;
+    line-height: 30px;
+  }
+  .css-div {
+    height: 250px;
+    max-width: 220px;
+    line-height: 30px;
+    margin-bottom: 120px;
+  }
+  .javascript-div {
+    margin-top: 30px;
+    max-width: 220px;
+    line-height: 30px;
+  }
+
+  .conteudo-projetos {
+    display: grid;
+    text-align: center;
+  }
+
+  .explicando-projeto {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "chivo";
+    font-size: 17px;
+    min-width: 300px;
+  }
+
+  .footer-container {
+    margin-top: 100px;
+  }
+
+  .adivinhe-img {
+    width: 280px;
+  }
+
+  .previsao-img {
+    width: 300px;
+    border: 1px solid black;
+  }
+
+  .adivinhe-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .previsao-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .link-jogar:hover {
+    color: rgb(30, 30, 202);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .conteudo-titulo4 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .finalizando {
+    font-family: "chivo";
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+/* MOBILE 480PX */
+@media (min-width: 480px) {
+  .icon-logo {
+    font-size: 40px;
+    padding: 15px;
+  }
+
+  .icon-logo-aba-aberta {
+    font-size: 40px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sobre {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobreMim {
+    margin-right: 18px;
+    font-family: "chivo";
+  }
+
+  .sobreMim:hover {
+    color: rgb(29, 29, 124);
+    font-weight: bolder;
+  }
+
+  .botaoProjeto {
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "chivo";
+  }
+
+  .botaoProjeto:hover {
+    background-color: rgb(43, 41, 41);
+    transition: 0.2s;
+  }
+
+  .hamburger,
+  .escape {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobreMimProjetos1,
+  .sobreMimProjetos2,
+  .sobreMimBotaoEscape {
+    display: none;
+  }
+
+  .esconder {
+    display: none;
+  }
+
+  .aberturaConteudo {
+    margin-top: 50px;
+  }
+  .conteudo-titulo {
+    font-size: 25px;
+    font-family: "chivo";
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo-apresentacao {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "chivo";
+    text-align: center;
+    max-width: 250px;
+  }
+
+  .imagem-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .imagem-computador {
+    width: 170px;
+    border-radius: 50px;
+  }
+
+  .segunda-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  .imagem-sub-principal {
+    width: 350px;
+    height: 200px;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-bottom: -8px;
+  }
+
+  .sobreMinhaJornada {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(1, 1, 17), rgb(2, 2, 66));
+    padding: 20px;
+  }
+
+  .conteudo-titulo2 {
+    font-size: 25px;
+    font-family: "chivo";
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .conteudo-apresentacao2 {
+    max-width: 350px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "chivo";
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .habilidades {
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .habilidade-frontend {
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .linguagens {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .conteudo-titulo3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "chivo";
+    margin-bottom: 30px;
+  }
+
+  .conteudo-apresentacao3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "chivo";
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+
+  .conteudo-projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explicando-projeto {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "chivo";
+    font-size: 20px;
+    min-width: 480px;
+  }
+
+  .icone-tec {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .html-div {
+    height: 250px;
+    max-width: 400px;
+    line-height: 30px;
+  }
+  .css-div {
+    height: 250px;
+    max-width: 400px;
+    line-height: 30px;
+    margin-bottom: 120px;
+  }
+  .javascript-div {
+    margin-top: 20px;
+    max-width: 400px;
+    line-height: 30px;
+    margin-bottom: 100px;
+  }
+
+  .footer-container {
+    margin-top: 100px;
+  }
+
+  .adivinhe-img {
+    width: 300px;
+  }
+
+  .previsao-img {
+    width: 300px;
+    border: 1px solid black;
+  }
+
+  .adivinhe-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .previsao-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .link-jogar:hover {
+    color: rgb(30, 30, 202);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .conteudo-titulo4 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .finalizando {
+    font-family: "roboto";
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+/* 600PX RESOLUTION */
+
+@media (min-width: 600px) {
+  .icon-logo {
+    font-size: 60px;
+    padding: 15px;
+  }
+
+  .icon-logo-aba-aberta {
+    font-size: 80px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sobre {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobreMim {
+    margin-right: 18px;
+    font-family: "chivo";
+    font-size: 20px;
+  }
+
+  .sobreMim:hover {
+    color: rgb(29, 29, 124);
+    font-weight: normal;
+  }
+
+  .botaoProjeto {
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "chivo";
+  }
+
+  .botaoProjeto:hover {
+    background-color: rgb(43, 41, 41);
+    transition: 0.5s;
+  }
+
+  .hamburger,
+  .escape {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobreMimProjetos1,
+  .sobreMimProjetos2,
+  .sobreMimBotaoEscape {
+    display: none;
+  }
+
+  .esconder {
+    display: none;
+  }
+
+  .aberturaConteudo {
+    margin-top: 50px;
+  }
+  .conteudo-titulo {
+    font-size: 30px;
+    font-family: "chivo";
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo-apresentacao {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "chivo";
+    text-align: center;
+    max-width: 250px;
+  }
+
+  .imagem-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .imagem-computador {
+    margin-top: 50px;
+    width: 170px;
+    border-radius: 50px;
+  }
+
+  .segunda-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  .imagem-sub-principal {
+    width: 500px;
+    height: 300px;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-bottom: -8px;
+  }
+
+  .sobreMinhaJornada {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(1, 1, 17), rgb(2, 2, 66));
+    padding: 40px;
+  }
+
+  .conteudo-titulo2 {
+    font-size: 30px;
+    font-family: "chivo";
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .conteudo-apresentacao2 {
+    min-width: 500px;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "chivo";
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .habilidades {
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .habilidade-frontend {
+    font-size: 60px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .linguagens {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .conteudo-titulo3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "chivo";
+    margin-bottom: 30px;
+  }
+
+  .explicando-projeto {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "chivo";
+    font-size: 22px;
+    min-width: 500px;
+  }
+
+  .conteudo-apresentacao3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "chivo";
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: normal;
+  }
+
+  .icone-tec {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .html-div {
+    height: 250px;
+    max-width: 400px;
+    line-height: 30px;
+  }
+  .css-div {
+    height: 250px;
+    max-width: 400px;
+    line-height: 30px;
+    margin-bottom: 120px;
+  }
+  .javascript-div {
+    margin-top: 20px;
+    max-width: 400px;
+    line-height: 30px;
+    margin-bottom: 100px;
+  }
+
+  .footer-container {
+    margin-top: 100px;
+  }
+
+  .adivinhe-img {
+    width: 400px;
+  }
+
+  .previsao-img {
+    width: 400px;
+    border: 1px solid black;
+  }
+
+  .adivinhe-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .previsao-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .link-jogar:hover {
+    color: rgb(30, 30, 202);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .conteudo-titulo4 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .finalizando {
+    font-family: "chivo";
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+/* 800 pixel resolution */
+
+@media (min-width: 801px) {
+  .icon-logo {
+    font-size: 60px;
+    padding: 15px;
+  }
+
+  .icon-logo-aba-aberta {
+    font-size: 80px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sobre {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobreMim {
+    margin-right: 18px;
+    font-family: "chivo";
+    font-size: 30px;
+  }
+
+  .sobreMim:hover {
+    color: rgb(29, 29, 124);
+    font-weight: bolder;
+  }
+
+  .botaoProjeto {
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "chivo";
+  }
+
+  .botaoProjeto:hover {
+    background-color: rgb(43, 41, 41);
+    transition: 0.5s;
+  }
+
+  .hamburger,
+  .escape {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobreMimProjetos1,
+  .sobreMimProjetos2,
+  .sobreMimBotaoEscape {
+    display: none;
+  }
+
+  .esconder {
+    display: none;
+  }
+
+  .aberturaConteudo {
+    margin-top: 50px;
+  }
+  .conteudo-titulo {
+    font-size: 40px;
+    font-family: "chivo";
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo-apresentacao {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "chivo";
+    text-align: center;
+    min-width: 700px;
+  }
+
+  .imagem-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .imagem-computador {
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 50px;
+  }
+
+  .segunda-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  .imagem-sub-principal {
+    width: 700px;
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-bottom: -8px;
+  }
+
+  .sobreMinhaJornada {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(1, 1, 17), rgb(2, 2, 66));
+    padding: 40px;
+  }
+
+  .conteudo-titulo2 {
+    font-size: 30px;
+    font-family: "chivo";
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao2 {
+    min-width: 700px;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "chivo";
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .habilidades {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .habilidade-frontend {
+    margin-top: 100px;
+    font-size: 60px;
+    background-color: white;
+    padding: 5px;
+    min-width: 400px;
+  }
+
+  .linguagens {
+    margin-top: 30px;
+  }
+
+  .conteudo-titulo3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "chivo";
+    margin-bottom: 50px;
+  }
+
+  .conteudo-apresentacao3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "chivo";
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: normal;
+  }
+
+  .icone-tec {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .html-div {
+    height: 250px;
+    min-width: 500px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .css-div {
+    height: 250px;
+    min-width: 500px;
+    line-height: 30px;
+    margin-bottom: 120px;
+  }
+  .javascript-div {
+    margin-top: 20px;
+    min-width: 500px;
+    line-height: 30px;
+    margin-bottom: 100px;
+  }
+
+  .footer-container {
+    margin-top: 100px;
+  }
+
+  .adivinhe-img {
+    width: 400px;
+  }
+
+  .previsao-img {
+    width: 400px;
+    border: 1px solid black;
+  }
+
+  .adivinhe-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .previsao-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .link-jogar:hover {
+    color: rgb(30, 30, 202);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .conteudo-titulo4 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .finalizando {
+    font-family: "chivo";
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+/* resolução 1025px */
+@media (min-width: 1025px) {
+  .icon-logo {
+    font-size: 60px;
+    padding: 15px;
+  }
+
+  .icon-logo-aba-aberta {
+    font-size: 80px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sobre {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobreMim {
+    margin-right: 18px;
+    font-family: "chivo";
+    font-size: 30px;
+  }
+
+  .sobreMim:hover {
+    color: rgb(29, 29, 124);
+    font-weight: bolder;
+  }
+
+  .botaoProjeto {
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "chivo";
+  }
+
+  .botaoProjeto:hover {
+    background-color: rgb(43, 41, 41);
+    transition: 0.5s;
+  }
+
+  .hamburger,
+  .escape {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobreMimProjetos1,
+  .sobreMimProjetos2,
+  .sobreMimBotaoEscape {
+    display: none;
+  }
+
+  .esconder {
+    display: none;
+  }
+
+  .aberturaConteudo {
+    margin-top: 50px;
+  }
+  .conteudo-titulo {
+    font-size: 40px;
+    font-family: "chivo";
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo-apresentacao {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "chivo";
+    font-weight: normal;
+    text-align: center;
+    min-width: 450px;
+  }
+
+  .imagem-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .imagem-computador {
+    margin-top: 50px;
+    min-width: 200px;
+    border-radius: 50px;
+  }
+
+  .segunda-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  .imagem-sub-principal {
+    min-width: 700px;
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-bottom: -8px;
+  }
+
+  .sobreMinhaJornada {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(1, 1, 17), rgb(2, 2, 66));
+    padding: 40px;
+  }
+
+  .conteudo-titulo2 {
+    font-size: 30px;
+    font-family: "chivo";
+    text-align: center;
+    color: white;
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao2 {
+    min-width: 900px;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: "chivo";
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .habilidades {
+    margin-top: 50px;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    font-family: "chivo";
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .habilidade-frontend {
+    font-size: 60px;
+    text-align: center;
+
+    padding: 5px;
+  }
+
+  .linguagens {
+    margin-top: 30px;
+  }
+
+  .conteudo-titulo3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "chivo";
+    margin-bottom: 50px;
+  }
+
+  .conteudo-apresentacao3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "chivo";
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: normal;
+  }
+
+  .icone-tec {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .html-div {
+    height: 250px;
+    min-width: 500px;
+    line-height: 30px;
+  }
+  .css-div {
+    height: 250px;
+    min-width: 500px;
+    line-height: 30px;
+    margin-bottom: 120px;
+  }
+  .javascript-div {
+    margin-top: 20px;
+    min-width: 500px;
+    line-height: 30px;
+    margin-bottom: 100px;
+  }
+
+  .algunsProjetosLegais {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+  }
+
+  .explicando-projeto {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "chivo";
+    font-size: 17px;
+    min-width: 800px;
+  }
+
+  .projeto1 {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+  }
+
+  .footer-container {
+    margin-top: 100px;
+  }
+
+  .adivinhe-img {
+    width: 400px;
+  }
+
+  .previsao-img {
+    width: 400px;
+    border: 1px solid black;
+  }
+
+  .adivinhe-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .previsao-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .link-jogar:hover {
+    color: rgb(30, 30, 202);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .conteudo-titulo4 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .finalizando {
+    font-family: "chivo";
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .icon-logo {
+    font-size: 80px;
+    padding: 15px;
+  }
+
+  .icon-logo-aba-aberta {
+    font-size: 80px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sobre {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobreMim {
+    margin-right: 18px;
+    font-family: "chivo";
+    font-size: 30px;
+  }
+
+  .sobreMim:hover {
+    color: rgb(29, 29, 124);
+    font-weight: normal;
+  }
+
+  .botaoProjeto {
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: "chivo";
+  }
+
+  .botaoProjeto:hover {
+    background-color: rgb(43, 41, 41);
+    transition: 0.5s;
+  }
+
+  .hamburger,
+  .escape {
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .sobreMimProjetos1,
+  .sobreMimProjetos2,
+  .sobreMimBotaoEscape {
+    display: none;
+  }
+
+  .esconder {
+    display: none;
+  }
+
+  .aberturaConteudo {
+    margin-top: 50px;
+  }
+  .conteudo-titulo {
+    font-size: 40px;
+    text-align: center;
+    font-family: "chivo";
+    font-weight: normal;
+  }
+
+  .conteudo-apresentacao-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo-apresentacao {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "chivo";
+    font-weight: normal;
+    text-align: center;
+    min-width: 900px;
+  }
+
+  .imagem-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .imagem-computador {
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 50px;
+  }
+
+  .segunda-imagem {
+    display: flex;
+    justify-content: center;
+  }
+  .imagem-sub-principal {
+    width: 1500px;
+    height: 700px;
+    margin-top: 200px;
+    border-radius: 20px;
+    margin-bottom: -8px;
+  }
+
+  .sobreMinhaJornada {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(1, 1, 17), rgb(2, 2, 66));
+    padding: 40px;
+  }
+
+  .conteudo-titulo2 {
+    font-size: 30px;
+    font-family: "chivo";
+    font-weight: normal;
+    text-align: center;
+    color: white;
+  }
+
+  .conteudo-apresentacao2 {
+    min-width: 1100px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "chivo";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 500px;
+  }
+
+  .container .habilidade-frontend {
+    font-size: 50px;
+    margin-top: 200px;
+    padding: 15px;
+  }
+
+  .habilidades {
+    margin-top: 50px;
+    padding: 20px;
+    font-family: "chivo";
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conteudo-titulo3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "chivo";
+  }
+
+  .conteudo-apresentacao3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "chivo";
+    font-weight: normal;
+  }
+
+  .icone-tec {
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(79, 78, 180);
+  }
+
+  .html-div {
+    padding: 50px;
+    color: white;
+    background-color: rgb(79, 78, 180);
+    max-width: 500px;
+    line-height: 30px;
+    height: 300px;
+  }
+  .css-div {
+    max-width: 500px;
+    line-height: 30px;
+    padding: 50px;
+    color: white;
+    background-color: rgb(79, 78, 180);
+    height: 420px;
+  }
+  .javascript-div {
+    max-width: 500px;
+    line-height: 30px;
+    padding: 50px;
+    color: white;
+    background-color: rgb(79, 78, 180);
+  }
+
+  .algunsProjetosLegais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .explicando-projeto {
+    margin-top: 30px;
+    font-family: "chivo";
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+
+  .footer-container {
+    margin-top: 100px;
+  }
+
+  .adivinhe-img {
+    width: 400px;
+  }
+
+  .previsao-img {
+    width: 400px;
+    border: 1px solid black;
+  }
+
+  .adivinhe-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .previsao-img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .link-jogar:hover {
+    color: rgb(30, 30, 202);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .conteudo-titulo4 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .finalizando {
+    font-family: "chivo";
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+}
