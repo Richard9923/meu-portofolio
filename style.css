@@ -20,6 +20,10 @@ a:visited {
   color: black;
 }
 
+a {
+  color: black;
+}
+
 @font-face {
   font-family: "roboto";
   src: url(/fonte/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
@@ -171,11 +175,13 @@ a:visited {
     text-align: center;
     color: white;
     font-weight: bolder;
+    margin-bottom: 25px;
   }
 
   .conteudo-apresentacao2 {
-    max-width: 260px;
+    max-width: 300px;
     font-size: 20px;
+    line-height: 30px;
     font-family: "chivo";
     text-align: center;
     display: flex;
@@ -209,6 +215,9 @@ a:visited {
     font-size: 25px;
     font-weight: normal;
     font-family: "chivo";
+    margin-bottom: 30px;
+    margin: auto;
+    width: 250px;
     margin-bottom: 30px;
   }
 
@@ -245,15 +254,19 @@ a:visited {
 
   .conteudo-projetos {
     display: grid;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .explicando-projeto {
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: "chivo";
-    font-size: 17px;
-    min-width: 300px;
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
   }
 
   .footer-container {
@@ -1555,6 +1568,7 @@ a:visited {
     text-align: center;
     font-size: 30px;
     font-family: "chivo";
+    width: 550px;
   }
 
   .conteudo-apresentacao3 {
