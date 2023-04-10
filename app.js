@@ -42,7 +42,7 @@ function typeWriter(elemento) {
   textoArray.forEach((letra, i) => {
     setTimeout(function () {
       elemento.innerText += `${letra}`;
-    }, 75 * i);
+    }, 90 * i);
   });
 }
 
