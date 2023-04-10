@@ -26,12 +26,12 @@ a {
 
 @font-face {
   font-family: "roboto";
-  src: url(/fonte/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+  src: url(fonte/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: "chivo";
-  src: url(/fonte/Chivo_Mono/ChivoMono-Italic-VariableFont_wght.ttf);
+  src: url(fonte/Chivo_Mono/ChivoMono-Italic-VariableFont_wght.ttf);
 }
 
 .sobreMimProjetos3 {
