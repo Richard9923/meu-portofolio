@@ -193,10 +193,10 @@ a {
   .habilidades {
     margin-top: 50px;
     padding: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1, 1fr;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
   .habilidade-frontend {
@@ -237,18 +237,20 @@ a {
 
   .html-div {
     height: 250px;
-    max-width: 220px;
+    min-width: 220px;
     line-height: 30px;
+    text-align: center;
   }
   .css-div {
     height: 250px;
-    max-width: 220px;
+    min-width: 220px;
     line-height: 30px;
     margin-bottom: 120px;
+    text-align: center;
   }
   .javascript-div {
     margin-top: 30px;
-    max-width: 220px;
+    min-width: 250px;
     line-height: 30px;
   }
 
@@ -480,11 +482,13 @@ a {
   }
 
   .linguagens {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
+    min-width: 400px;
   }
 
   .conteudo-titulo3 {
@@ -493,6 +497,7 @@ a {
     font-weight: normal;
     font-family: "chivo";
     margin-bottom: 30px;
+    min-width: 400px;
   }
 
   .conteudo-apresentacao3 {
@@ -502,6 +507,7 @@ a {
     margin-top: 20px;
     margin-bottom: 30px;
     font-weight: normal;
+    padding: 10px;
   }
 
   .conteudo-projetos {
@@ -525,25 +531,26 @@ a {
   }
 
   .html-div {
-    height: 250px;
-    max-width: 400px;
+    text-align: center;
+    min-width: 480px;
     line-height: 30px;
   }
   .css-div {
-    height: 250px;
-    max-width: 400px;
+    text-align: center;
+    min-width: 480px;
     line-height: 30px;
     margin-bottom: 120px;
   }
   .javascript-div {
+    text-align: center;
     margin-top: 20px;
-    max-width: 400px;
+    min-width: 480px;
     line-height: 30px;
     margin-bottom: 100px;
   }
 
   .footer-container {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .adivinhe-img {
@@ -746,6 +753,11 @@ a {
   .habilidades {
     margin-top: 50px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
   }
 
   .habilidade-frontend {
@@ -769,6 +781,7 @@ a {
     font-weight: normal;
     font-family: "chivo";
     margin-bottom: 30px;
+    min-width: 500px;
   }
 
   .explicando-projeto {
@@ -795,18 +808,18 @@ a {
 
   .html-div {
     height: 250px;
-    max-width: 400px;
+    min-width: 600px;
     line-height: 30px;
   }
   .css-div {
     height: 250px;
-    max-width: 400px;
+    min-width: 400px;
     line-height: 30px;
     margin-bottom: 120px;
   }
   .javascript-div {
     margin-top: 20px;
-    max-width: 400px;
+    min-width: 400px;
     line-height: 30px;
     margin-bottom: 100px;
   }
@@ -1018,6 +1031,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   .habilidade-frontend {
@@ -1025,11 +1039,11 @@ a {
     font-size: 60px;
     background-color: white;
     padding: 5px;
-    min-width: 400px;
   }
 
   .linguagens {
     margin-top: 30px;
+    text-align: center;
   }
 
   .conteudo-titulo3 {
@@ -1038,6 +1052,7 @@ a {
     font-weight: bold;
     font-family: "chivo";
     margin-bottom: 50px;
+    min-width: 600px;
   }
 
   .conteudo-apresentacao3 {
@@ -1299,6 +1314,7 @@ a {
     font-size: 30px;
     font-family: "chivo";
     margin-bottom: 50px;
+    min-width: 500px;
   }
 
   .conteudo-apresentacao3 {
@@ -1396,7 +1412,7 @@ a {
   }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1600px) {
   .icon-logo {
     font-size: 80px;
     padding: 15px;
@@ -1568,7 +1584,7 @@ a {
     text-align: center;
     font-size: 30px;
     font-family: "chivo";
-    width: 550px;
+    min-width: 500px;
   }
 
   .conteudo-apresentacao3 {
