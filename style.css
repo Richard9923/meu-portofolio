@@ -694,7 +694,7 @@ a {
     font-size: 30px;
     font-family: "chivo";
     text-align: center;
-    max-width: 250px;
+    max-width: 500px;
   }
 
   .imagem-principal {
@@ -1217,6 +1217,7 @@ a {
     font-family: "chivo";
     text-align: center;
     font-weight: normal;
+    margin-bottom: 30px;
   }
 
   .conteudo-apresentacao-div {
@@ -1233,7 +1234,7 @@ a {
     font-family: "chivo";
     font-weight: normal;
     text-align: center;
-    min-width: 450px;
+    min-width: 850px;
   }
 
   .imagem-principal {
