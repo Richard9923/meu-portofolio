@@ -8,10 +8,15 @@ const escape = document.querySelector(".sobreMimBotaoEscape");
 const iconePrincipal = document.querySelector(".icon-logo");
 const conteudoTitulo = document.querySelector(".conteudo-titulo");
 const conteudoApresentacao = document.querySelector(".conteudo-apresentacao");
+// tentando criar novo hamburger animado
+//teste
+const menuBtn = document.querySelector(".menu-btn");
+let menuOpen = false;
 
+// acima criando de teste
 // click eventos para abrir a aba
-hamburger.addEventListener("click", sobreMimOPC);
-escape.addEventListener("click", fecharAba);
+menuBtn.addEventListener("click", sobreMimOPC);
+menuBtn.addEventListener("click", fecharAba);
 
 // função abrindo aba
 function sobreMimOPC() {
@@ -25,13 +30,15 @@ function sobreMimOPC() {
 
 //função fechando a aba
 function fecharAba() {
-  escape.classList.add("sobreMimBotaoEscape");
-  sobreMimProjetos.classList.add("sobreMimProjetos1");
-  sobreMimProjetos2.classList.add("sobreMimProjetos2");
-  sobreMimProjetos3.classList.add("sobreMimProjetos3");
-  hamburger.style.opacity = "2";
-  hamburger.classList.remove("esconder");
-  iconePrincipal.classList.remove("icon-logo-aba-aberta");
+  if (menuOpen === true) {
+    escape.classList.add("sobreMimBotaoEscape");
+    sobreMimProjetos.classList.add("sobreMimProjetos1");
+    sobreMimProjetos2.classList.add("sobreMimProjetos2");
+    sobreMimProjetos3.classList.add("sobreMimProjetos3");
+    hamburger.style.opacity = "2";
+    hamburger.classList.remove("esconder");
+    iconePrincipal.classList.remove("icon-logo-aba-aberta");
+  }
 }
 
 // função efeito maquina de escrever
@@ -49,3 +56,15 @@ function typeWriter(elemento) {
 typeWriter(conteudoTitulo);
 
 // efeito rolagem
+
+menuBtn.addEventListener("click", () => {
+  if (!menuOpen) {
+    menuBtn.classList.add("open");
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove("open");
+    menuOpen = false;
+  }
+});
+
+console.log(menuOpen);
