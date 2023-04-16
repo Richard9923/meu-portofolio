@@ -75,6 +75,7 @@ a {
   .sobreMim:hover {
     color: rgb(29, 29, 124);
     font-weight: bolder;
+    transition: all 0.5s;
   }
 
   .botaoProjeto {
@@ -354,6 +355,7 @@ a {
   .sobreMim:hover {
     color: rgb(29, 29, 124);
     font-weight: bolder;
+    transition: all 0.5s;
   }
 
   .botaoProjeto {
@@ -633,7 +635,8 @@ a {
 
   .sobreMim:hover {
     color: rgb(29, 29, 124);
-    font-weight: normal;
+    font-weight: bolder;
+    transition: all 0.5s;
   }
 
   .botaoProjeto {
@@ -909,6 +912,7 @@ a {
   .sobreMim:hover {
     color: rgb(29, 29, 124);
     font-weight: bolder;
+    transition: all 0.5s;
   }
 
   .botaoProjeto {
@@ -1172,6 +1176,7 @@ a {
   .sobreMim:hover {
     color: rgb(29, 29, 124);
     font-weight: bolder;
+    transition: all 0.5s;
   }
 
   .botaoProjeto {
@@ -1450,7 +1455,8 @@ a {
 
   .sobreMim:hover {
     color: rgb(29, 29, 124);
-    font-weight: normal;
+    font-weight: bolder;
+    transition: all 0.5s;
   }
 
   .botaoProjeto {
