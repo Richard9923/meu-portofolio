@@ -359,6 +359,13 @@ a {
     padding: 40px;
     margin-bottom: 50px;
   }
+  .sobreMim {
+    border-bottom: 2px solid black;
+  }
+
+  .sobre {
+    width: 120px;
+  }
 }
 
 /* MOBILE 480PX */
@@ -690,6 +697,13 @@ a {
   .menu-btn.open .menu-btn_burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
   }
+  .sobreMim {
+    border-bottom: 2px solid black;
+  }
+
+  .sobre {
+    width: 110px;
+  }
 }
 
 /* 600PX RESOLUTION */
@@ -1018,6 +1032,13 @@ a {
   .menu-btn.open .menu-btn_burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
   }
+  .sobreMim {
+    border-bottom: 2px solid black;
+  }
+
+  .sobre {
+    width: 130px;
+  }
 }
 
 /* 800 pixel resolution */
@@ -1334,6 +1355,13 @@ a {
 
   .menu-btn.open .menu-btn_burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
+  }
+  .sobreMim {
+    border-bottom: 2px solid black;
+  }
+
+  .sobre {
+    width: 230px;
   }
 }
 
@@ -1668,6 +1696,13 @@ a {
   .menu-btn.open .menu-btn_burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
   }
+  .sobreMim {
+    border-bottom: 2px solid black;
+  }
+
+  .sobre {
+    width: 300px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -1736,6 +1771,14 @@ a {
   .sobreMimProjetos2,
   .sobreMimBotaoEscape {
     display: none;
+  }
+
+  .sobreMim {
+    border-bottom: 2px solid black;
+  }
+
+  .sobre {
+    width: 300px;
   }
 
   .esconder {
@@ -1945,6 +1988,7 @@ a {
     padding: 40px;
     margin-bottom: 50px;
   }
+
   .menu-btn {
     position: relative;
     display: flex;
