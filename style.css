@@ -42,6 +42,7 @@ a {
   .icon-logo {
     font-size: 55px;
     padding: 15px;
+    margin-left: 20px;
   }
 
   .menu-btn {
@@ -119,6 +120,7 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-right: -5px;
   }
 
   .sobreMim {
@@ -1047,6 +1049,7 @@ a {
   .icon-logo {
     font-size: 60px;
     padding: 15px;
+    margin-left: 50px;
   }
 
   .icon-logo-aba-aberta {
@@ -1370,6 +1373,7 @@ a {
   .icon-logo {
     font-size: 60px;
     padding: 15px;
+    margin-left: 60px;
   }
 
   .icon-logo-aba-aberta {
@@ -1709,6 +1713,7 @@ a {
   .icon-logo {
     font-size: 80px;
     padding: 15px;
+    margin-left: 60px;
   }
 
   .icon-logo-aba-aberta {
@@ -1778,7 +1783,7 @@ a {
   }
 
   .sobre {
-    width: 300px;
+    width: 200px;
   }
 
   .esconder {
